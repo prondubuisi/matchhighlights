@@ -19,7 +19,7 @@ $sendMessage = new SendMessage($input);
 if(!empty($receivedMessage->textMessage))
 {
      
-      $sendMessage->text("Hello coder");
+      $sendMessage->text("Hello Wetin be your name sef");
 
 }
  
