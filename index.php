@@ -16,7 +16,7 @@ $sendMessage = new SendMessage($input);
  
 
  
-if(!empty($receivedMessage->textMessage)
+if(!empty($receivedMessage->textMessage))
 {
      
       $sendMessage->text("Hello coder");
