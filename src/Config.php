@@ -9,7 +9,7 @@ Class Config{
    static $facebookCredentials = [
 
        'verifyToken' => 'politricks',
-       'accessToken' => 'EAALGjd6t0LkBACwNwiP7QGeOBttMq6Tz8MOnZAaoWPZAlyf6R4ez7AJCIgYZBIZB8VtK1Po0Es30w4CIZCOf5rPqTZBQPs13tL2uRjmZCc9azTM3rnFaehAaibDOrJRKxUbzag2EpRrZAWmrr4hZAjRtMqYRiJbmoalfnIP6XxMKVJjTe9bWR5Xt1' ];
+       'accessToken' => 'EAALGjd6t0LkBAA9GJfje9FJGufdK7FOlrwGLGIzYyv6oRgafVcZB1Q8AJ9BvduskZC9MumsKIc09uSpItz0kXxvKiPiJL9RIVumSffrShvpawZBk48EwJcheGW6gLgrm53qEVG70oKOQ6X4ZCdoVJbVymGihzmRpZCnjzFiIZBT6w0AIW4ZBn7d' ];
 
     
     static function getVerifyToken()
