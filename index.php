@@ -19,7 +19,7 @@ $sendMessage = new SendMessage($input);
 if(!empty($receivedMessage->textMessage))
 {
      
-      $sendMessage->text("David Cool down na");
+      $sendMessage->text("David Cool down na, error prone");
 
 }
  
