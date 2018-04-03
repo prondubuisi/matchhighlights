@@ -3,6 +3,7 @@ require 'vendor/autoload.php';
 use  App\VerifyBot;
 use App\ReceivedMessage;
 use App\SendMessage;
+use App\PremiershipHighlights;
 
 $verifyBot = new VerifyBot();
 
@@ -19,7 +20,7 @@ $sendMessage = new SendMessage($input);
 if(!empty($receivedMessage->textMessage))
 {
      
-      $sendMessage->text("David Cool down na");
+      $sendMessage->text("David Cool down nahhghghgh");
 
 }
  
