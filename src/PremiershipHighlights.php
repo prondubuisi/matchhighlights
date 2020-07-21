@@ -18,7 +18,7 @@ class PremiershipHighlights {
 	function __construct() {
 
 		//AuthO credentials
-		$this->reddit = new Reddit("prondubuisi", "blackman123", "XDTgTfN3Eyt7hQ", "Q6zGs4YpdDxmpjcKP9pzX4PQNAY");
+		$this->reddit = new Reddit("user_name", "password", "app_id", "secret");
 
         //API call
 		$this->highlights = $this->reddit->getListing('footballhighlights', array("limit" => 100));
